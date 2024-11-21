@@ -13,11 +13,11 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
 ## Updates
 
 - 2024.11.19 Several MFogHub sub-datasets for **marine fog forecasting** are available now！！！
-  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains xxx samples.
+  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains xxx samples. [BaiduNetDisk]()
   >
-  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples.
+  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples. [BaiduNetDisk]()
   >
-  > **FY4A -- Y.B. sub-dataset**. It contains xxx samples.
+  > **FY4A -- Y.B. sub-dataset**. It contains xxx samples. [BaiduNetDisk]()
   >
 
 - 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！

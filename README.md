@@ -13,20 +13,24 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
 ## Updates
 
 - 2024.11.19 Several MFogHub sub-datasets for **marine fog forecasting** are available now！！！
-  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains xxx samples. [BaiduNetDisk]()
+  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains 472*6=2784 samples with the shape of TxCxHxW = 8x3x256x256. [BaiduNetDisk]()
   >
-  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples. [BaiduNetDisk]()
+  > **H8/9 -- Y.B. sub-dataset**. It contains 2,512 samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.51μm, 0.64μm). [BaiduNetDisk]()
   >
-  > **FY4A -- Y.B. sub-dataset**. It contains xxx samples. [BaiduNetDisk]()
+  > **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). [BaiduNetDisk]()
   >
 
 - 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！
-  > **GOES16 -- B.C.+C.C+G.A. sub-dataset**. It contains xxx samples with labels. [BaiduNetDisk]()
+  > **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. [BaiduNetDisk]()
   > 
-  > **FY4A -- Y.B. sub-dataset**. It contains xxx samples with labels. [BaiduNetDisk]()
+  > **FY4A -- Y.B. sub-dataset**. It contains 1,724 samples with the shape of CxHxW = 14x1024x1024, from 2018 to 2021. [BaiduNetDisk]()
   > 
-  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples with labels. [BaiduNetDisk]()
+  > **H8/9 -- Y.B. sub-dataset**. It contains 1,802 samples with the shape of CxHxW = 16x1024x1024, from 2018 to 2021. [BaiduNetDisk]()
   > 
+
+## How to create new samples
+
+We provide the complete processing workflow from raw satellite radiometer data to images. The corresponding processing code, along with visualization examples of true-color and pseudo-color images, can be found in the `process` folder. The workflow supports generating customized multi-channel images with specific latitude-longitude ranges and spatial resolutions.
 
 ## Connection
 

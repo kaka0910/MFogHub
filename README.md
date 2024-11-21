@@ -4,7 +4,7 @@ The MFogHub dataset and benchmarks for "MFogHub: Bridging Multi-Regional and Mul
 
 ![Fig1](https://github.com/kaka0910/MFogHub/blob/main/Figs/teaser.png)
 
-Fig1:Overview of MFogHub. Right: MFogHub collects data from 15 marine fog-prone regions worldwide, captured by 6 geostationary satellites. Middle: Data for each region-satellite pair is organized in a cube-stream structure with dimensions of “timestamp-spectral band-latitude-longitude.” MFogHub includes 21 cube-streams in total, each with corresponding masks, supporting both detection and forecasting tasks. Left: MFogHub enables unique evaluations of model generalization across multiple regions and satellite.
+Fig1: Overview of MFogHub. Right: MFogHub collects data from 15 marine fog-prone regions worldwide, captured by 6 geostationary satellites. Middle: Data for each region-satellite pair is organized in a cube-stream structure with dimensions of “timestamp-spectral band-latitude-longitude.” MFogHub includes 21 cube-streams in total, each with corresponding masks, supporting both detection and forecasting tasks. Left: MFogHub enables unique evaluations of model generalization across multiple regions and satellite.
 
 ## Introduction
 
@@ -12,8 +12,23 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
 
 ## Updates
 
-- 2024.11.19 Several MFogHub sub-datasets for marine fog forecasting are available now！！！
-  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples
+- 2024.11.19 Several MFogHub sub-datasets for **marine fog forecasting** are available now！！！
+  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains xxx samples.
+  >
+  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples.
+  >
+  > **FY4A -- Y.B. sub-dataset**. It contains xxx samples.
+  >
 
-- 2024.11.18 Several MFogHub sub-datasets for marine fog detection are available now！！！
-  > **GOES16 -- B.C.+C.C+G.A. sub-dataset**. It contains xxx samples with labels. We provide a link to download the samples. Please fill out this [form](https://forms.gle/EfijxroqCfxqqbmM9) to get the download link.
+- 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！
+  > **GOES16 -- B.C.+C.C+G.A. sub-dataset**. It contains xxx samples with labels. [BaiduNetDisk]()
+  > 
+  > **FY4A -- Y.B. sub-dataset**. It contains xxx samples with labels. [BaiduNetDisk]()
+  > 
+  > **H8/9 -- Y.B. sub-dataset**. It contains xxx samples with labels. [BaiduNetDisk]()
+  > 
+
+## Connection
+
+If you require additional validation data for marine fog monitoring or forecasting tasks, please contact the authors of MFogHub.
+

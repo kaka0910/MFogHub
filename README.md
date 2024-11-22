@@ -13,20 +13,52 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
 ## Updates
 
 - 2024.11.19 Several MFogHub sub-datasets for **marine fog forecasting** are available now！！！
-  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains 472*6=2784 samples with the shape of TxCxHxW = 8x3x256x256. [BaiduNetDisk]()
+  > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains 472*6=2784 samples with the shape of TxCxHxW = 8x3x256x256. 
   >
-  > **H8/9 -- Y.B. sub-dataset**. It contains 2,512 samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.51μm, 0.64μm). [BaiduNetDisk]()
+  > **H8/9 -- Y.B. sub-dataset**. It contains 2,512 samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.51μm, 0.64μm). 
   >
-  > **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). [BaiduNetDisk]()
+  > **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). 
   >
 
 - 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！
-  > **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. [BaiduNetDisk]()
+  > **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. 
   > 
-  > **FY4A -- Y.B. sub-dataset**. It contains 1,724 samples with the shape of CxHxW = 14x1024x1024, from 2018 to 2021. [BaiduNetDisk]()
+  > **FY4A -- Y.B. sub-dataset**. It contains 1,724 samples with the shape of CxHxW = 14x1024x1024, from 2018 to 2021. 
   > 
-  > **H8/9 -- Y.B. sub-dataset**. It contains 1,802 samples with the shape of CxHxW = 16x1024x1024, from 2018 to 2021. [BaiduNetDisk]()
+  > **H8/9 -- Y.B. sub-dataset**. It contains 1,802 samples with the shape of CxHxW = 16x1024x1024, from 2018 to 2021.
   > 
+
+## How to use
+
+Due to repository size limitations and the requirements for anonymous submission, we provide a smaller version of the MFogHub dataset to showcase our examples shown as Folder `small_version`. The data is organized according to the tasks of marine fog detection or forecasting. Each data sample is named in the format `"SatelliteAbbreviation_RegionAbbreviation_Timestamp.npy"`, and its corresponding label is named `"SatelliteAbbreviation_RegionAbbreviation_Timestamp.png"`.
+
+**Folder structure**
+
+```
+|-- ROOT
+    |-- Detection # For marine fog detection task
+        |-- Multi-regional GOES    # Tasking GOES16 as an example, including several samples of B.C./C.C./G.A. sub-dataset 
+            |-- G16_BC_20220441600.npy  # Multi-spectral-bands data
+            |-- G16_BC_20220441600.png  # Corresponding label
+            |-- G16_GA_20200561400.npy
+            |-- G16_GA_20200561400.png
+            ....
+        |-- Multi-satellite YB    # Tasking Y.B. region as an example, including FY4A and H8/9 satellite sub-dataset 
+            |-- FY4A_YB_20210325_0000.npy  # Multi-spectral-bands data
+            |-- FY4A_YB_20210325_0000.png  # Corresponding label
+            |-- H89_YB_20210613_0000.npy
+            |-- H89_YB_20210613_0000.png
+            ....
+    |-- Forecasting  # For marine fog forecasting task
+        |-- Multi-regional MeteoSat   # Tasking MeteoSat as an example, including several samples of single-regional (D.W.+D.C.+D.E.+N.S.+Na.+A.G.) and multi-region (EU+AF+all) sub-dataset 
+            |-- MeteoSat_All_2022.npy # Multi-regional sub-dataset
+            |-- MeteoSat_AG_2022.npy  # Single-regional sub-dataset
+            ....
+        |-- Multi-satellite YB    # Tasking Y.B. region as an example, including FY4A and H8/9 satellite sub-dataset 
+            |-- H89_YB_2021.npy
+            |-- FY4A_YB_2021.npy
+```
+
 
 ## How to create new samples
 

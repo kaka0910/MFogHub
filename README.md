@@ -15,17 +15,17 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
 - 2024.11.19 Several MFogHub sub-datasets for **marine fog forecasting** are available now！！！
   > **MeteoSat -- D.W.+D.C.+D.E.+N.S.+Na.+A.G./EU+AF/All sub-dataset**. It contains 472*6=2784 samples with the shape of TxCxHxW = 8x3x256x256. 
   >
-  > **H8/9 -- Y.B. sub-dataset**. It contains 2,512 samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.51μm, 0.64μm). 
+  > [【BaiduNetDisk (Password:jg2g)】](https://pan.baidu.com/s/1YCa2vaOczoGkJiqyo4Stog?pwd=jg2g) **H8/9 -- Y.B. sub-dataset**. It contains 2,512 samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.51μm, 0.64μm). 
   >
-  > **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). 
+  > [【BaiduNetDisk (Password:kzvu)】](https://pan.baidu.com/s/1HIJgZTwtipY2UhkNni0Uog?pwd=kzvu) **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). 
   >
 
 - 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！
-  > **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. 
+  > [【BaiduNetDisk (Password:cwgc)】](https://pan.baidu.com/s/15nIU7odw5WM44K4TjTRjRQ?pwd=cwgc) **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. 
   > 
-  > **FY4A -- Y.B. sub-dataset**. It contains 1,724 samples with the shape of CxHxW = 14x1024x1024, from 2018 to 2021. 
+  > [【BaiduNetDisk (Password:2mft)】](https://pan.baidu.com/s/1jd6C6OKXFZTpygUL3cK6HQ?pwd=2mft) **FY4A -- Y.B. sub-dataset**. It contains 1,724 samples with the shape of CxHxW = 14x1024x1024, from 2018 to 2021. 
   > 
-  > **H8/9 -- Y.B. sub-dataset**. It contains 1,802 samples with the shape of CxHxW = 16x1024x1024, from 2018 to 2021.
+  > [【BaiduNetDisk (Password:2yev)】](https://pan.baidu.com/s/1VrbPRokQis-alaAs0aXImA?pwd=2yev) **H8/9 -- Y.B. sub-dataset**. It contains 1,802 samples with the shape of CxHxW = 16x1024x1024, from 2018 to 2021.
   > 
 
 ## How to use

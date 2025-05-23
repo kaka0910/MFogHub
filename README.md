@@ -21,7 +21,7 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
   >
 
 - 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！
-  > [【BaiduNetDisk (Password:cwgc)】](https://pan.baidu.com/s/15nIU7odw5WM44K4TjTRjRQ?pwd=cwgc) **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. 
+  > [【BaiduNetDisk (Password:dmk9)】](https://pan.baidu.com/s/1rqh8EVAKoEZlTax5EO-AfQ?pwd=dmk9) **GOES16 -- B.C.+C.C.+G.A. sub-dataset**. It contains 474 (B.C.) + 404 (C.C.) + 408 (G.A.) samples with the shape of CxHxW = 16x1024x1024, from 2020 to 2023. 
   > 
   > [【BaiduNetDisk (Password:2mft)】](https://pan.baidu.com/s/1jd6C6OKXFZTpygUL3cK6HQ?pwd=2mft) **FY4A -- Y.B. sub-dataset**. It contains 1,724 samples with the shape of CxHxW = 14x1024x1024, from 2018 to 2021. 
   > 

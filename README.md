@@ -17,7 +17,7 @@ We introduce the MFogHub dataset—the first multi-regional, multi-satellite dat
   >
   > [【BaiduNetDisk (Password:jg2g)】](https://pan.baidu.com/s/1YCa2vaOczoGkJiqyo4Stog?pwd=jg2g) **H8/9 -- Y.B. sub-dataset**. It contains 2,512 samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.51μm, 0.64μm). 
   >
-  > [【BaiduNetDisk (Password:kzvu)】](https://pan.baidu.com/s/1HIJgZTwtipY2UhkNni0Uog?pwd=kzvu) **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). 
+  > [【BaiduNetDisk (Password:kzvu)】]() **FY4A -- Y.B. sub-dataset**. It contains 3,931  samples with the shape of TxCxHxW = 8x3x256x256, composed by visible bands (0.47μm, 0.65μm) + Near-Infrared band (0.825μm). 
   >
 
 - 2024.11.18 Several MFogHub sub-datasets for **marine fog detection** are available now！！！
